@@ -25,5 +25,9 @@ devices=['S5700','S12700','S6700','S3200']
 for device in devices:
     #此时device 依此是s5700,s12700,s6700,s3200
     #注意：print前面有4个空格，表示它在循环里
-    print(f'开始登录设备 {device}')
+    print(f'开始登录设备 {devices}')
     print(f'开始保存配置 {device}')
+vlans=[10,20,30,40,50,60]
+for vlan in vlans:
+    print(f'创建vlan {vlan}')
+    print(f'descripion 这是vlan_{vlan}')
